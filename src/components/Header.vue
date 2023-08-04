@@ -10,7 +10,7 @@
                 <span class="menu-link text-xl-h6" @click="navigateTo('Service')">Service</span>
             </v-col>
             <v-col sm="4" md="2" class="text-center">
-              <v-img src="../assets/images/Agora_Logo 1.png" alt="Logo" class="logo"></v-img>
+              <v-img src="/images/Agora_Logo.png" alt="Logo" class="logo"></v-img>
             </v-col>
           <v-col sm="2"  md="1" class="text-center">
             <span class="menu-link text-xl-h6" @click="navigateTo('Project')">Project</span>
@@ -21,7 +21,7 @@
         </v-row>
         <v-row v-else >
             <v-col cols="12" class="text-center">
-                <v-img src="../assets/images/Agora_Logo 1.png" alt="Logo" class="logo"></v-img>
+                <v-img src="/images/Agora_Logo.png" alt="Logo" class="logo"></v-img>
             </v-col>
         </v-row>
       </v-app-bar>

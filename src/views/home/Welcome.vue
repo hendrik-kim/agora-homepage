@@ -21,7 +21,7 @@
     <!-- Common container for both images -->
     <div class="image-container">
       <!-- Square Image -->
-      <img src="../../assets/images/square  1.png" alt="Square Image" class="square-image d-sm-none d-lg-block">
+      <img src="/images/square.png" alt="Square Image" class="square-image d-sm-none d-lg-block">
     </div>
   </v-container>
 </template>
