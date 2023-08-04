@@ -20,7 +20,7 @@
           </v-col>
         </v-row>
         <v-row v-else >
-            <v-col cols="12" class="text-center">
+            <v-col cols="12" class="d-flex justify-center">
                 <v-img src="/images/Agora_Logo.png" alt="Logo" class="logo"></v-img>
             </v-col>
         </v-row>
