@@ -76,7 +76,7 @@
           <p class="grid-item-description">This is the description for Grid Item 9.</p>
         </v-col>
       </v-row>
-      <v-row class="my-16">
+      <v-row class="my-16 my-md-0">
         <v-col class="d-flex justify-center d-md-none">
           <ServicesCarousel/>
         </v-col>
@@ -90,7 +90,7 @@
   </template>
   
   <script>
-import ServicesCarousel from './ServicesCarousel.vue';
+import ServicesCarousel from './OurServicesCarousel.vue';
 
   export default {
     name: 'OurServices',  
