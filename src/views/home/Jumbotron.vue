@@ -2,7 +2,7 @@
   <v-container fluid class="pa-0 d-flex align-center justify-center">
     <v-responsive :aspect-ratio="16/9">
       <video class="jumbotron-video v-responsive__sizer" loop autoplay muted>
-        <source src="../../assets/videos/jumbotron.mp4" type="video/mp4">
+        <source src="/videos/jumbotron.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </v-responsive>

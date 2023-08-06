@@ -10,7 +10,7 @@
         <p class="text-3">Agora is a public open space used for assemblies and markets in ancient Greek. Just like agora, we wanted to create an “open space” platform for all people.</p>
       </v-col>
       <v-col md="6" cols="12" class="d-sm-flex justify-sm-center justify-md-start">
-        <img src="../../assets/images/welcome.png" style=" width:100%; max-width: 465px; height: 100%; max-height: 607px;" alt="Welcome Image" >
+        <img src="/images/welcome.png" style=" width:100%; max-width: 465px; height: 100%; max-height: 607px;" alt="Welcome Image" >
       </v-col>
     </v-row>
     <v-row class="mt-md-16">
@@ -124,6 +124,6 @@ export default {
   width: 317px;
   height: 99px;
   flex-shrink: 0;
-  background: url(path_to_your_square_image.jpg), lightgray 50% / cover no-repeat;
+  /* background: url(path_to_your_square_image.jpg), lightgray 50% / cover no-repeat; */
 }
 </style>

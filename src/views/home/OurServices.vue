@@ -23,14 +23,14 @@
         </v-col>
         <!-- Grid Item 7 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/share.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/share.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">Branding / Marketing</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">Branding defines identity, marketing shares to world</p>
         </v-col>
         <!-- Grid Item 4 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/google.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/google.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">Google Business set up</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">Online presence with our Google Business set up</p>
@@ -42,7 +42,7 @@
   
         <!-- Grid Item 5 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/camera.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/camera.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">Photo / Videography</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">Expert photo/videography services for your marketing</p>
@@ -50,7 +50,7 @@
   
         <!-- Grid Item 6 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/bitcoin.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/bitcoin.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">SEO set up</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">Boost online visibility with our professional SEO setup</p>
@@ -62,7 +62,7 @@
   
         <!-- Grid Item 8 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/pencil.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/pencil.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">Web / App Design</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">Transform your vision into reality with our design</p>
@@ -70,7 +70,7 @@
   
         <!-- Grid Item 9 -->
         <v-col md="4" sm="6" cols="12" class="grid-item">
-          <v-img src="../../assets/images/welcome/group.svg" style="width: 51.247px; height: 50.783px;"></v-img>
+          <v-img src="/images/welcome/group.svg" style="width: 51.247px; height: 50.783px;"></v-img>
           <p class="grid-item-title">News / Ads</p>
           <div class="grid-line" style="width: 219.735px; height: 0.977px;"></div>
           <p class="grid-item-description">This is the description for Grid Item 9.</p>
