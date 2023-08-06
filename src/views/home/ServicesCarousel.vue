@@ -19,7 +19,7 @@
         <v-row class="d-flex fill-height justify-center align-center pa-5 pa-md-16" >
           <v-col cols="12" class="grid-item ">
             <v-img v-if="item.image" :src="item.image" :style="{width: '51.247px', height: '50.783px'}"></v-img>
-            <p class="grid-item-title text-no-wrap" :style="item.image?{}:{fontSize:'30px'}">{{ item.title }} {{ item.content }}</p>
+            <p class="grid-item-title text-no-wrap" :style="item.image?{}:{fontSize:'30px', textAlign:'center'}">{{ item.title }} {{ item.content }}</p>
             <div v-if="item.image" class="grid-line" :style="{width: '100%', height: '0.977px'}"></div>
             <p class="grid-item-description">{{ item.description }}</p>     
           </v-col>
