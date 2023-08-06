@@ -2,8 +2,8 @@
   <v-container class="padding-md-130 mt-50" style="max-width: 1280px;" >
     <v-row class="mb-md-16">
       <v-col md="6" cols="12" class="padding-md-16 welcome-image">
-        <p class="text-1 d-sm-inline d-md-block">Welcome to &nbsp;</p>
-        <p class="text-2 d-sm-inline d-md-block">AGORA PRODUCTION</p>
+        <p class="text-1 d-block d-md-block">Welcome to &nbsp;</p>
+        <p class="text-2 d-block d-md-block">AGORA PRODUCTION</p>
         <br class="d-none d-md-block"/>
         <br class="d-none d-md-block"/>
         <br />
@@ -53,6 +53,7 @@ export default {
   letter-spacing: 0em;
   text-align: left;
   font-style: normal;
+  word-break: keep-all;
 }
 
 .text-3 {
@@ -61,7 +62,7 @@ export default {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
-  text-align: justify;
+  /* text-align: justify; */
   font-style: normal;
 }
 

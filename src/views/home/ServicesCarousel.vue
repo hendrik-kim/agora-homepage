@@ -17,14 +17,12 @@
         :key="i"
       >
         <v-row class="d-flex fill-height justify-center align-center pa-5 pa-md-16" >
-          <v-col cols="2" class="grid-item ">
+          <v-col cols="12" class="grid-item ">
             <v-img v-if="item.image" :src="item.image" :style="{width: '51.247px', height: '50.783px'}"></v-img>
-               
-          </v-col>
-          <v-col cols="10"><p class="grid-item-title" :style="item.image?{}:{fontSize:'30px'}">{{ item.title }} {{ item.content }}</p>
+            <p class="grid-item-title text-no-wrap" :style="item.image?{}:{fontSize:'30px'}">{{ item.title }} {{ item.content }}</p>
             <div v-if="item.image" class="grid-line" :style="{width: '100%', height: '0.977px'}"></div>
-            <p class="grid-item-description">{{ item.description }}</p>     </v-col>
-
+            <p class="grid-item-description">{{ item.description }}</p>     
+          </v-col>
         </v-row>
       </v-carousel-item>
     </v-carousel>
@@ -93,8 +91,10 @@
   </script>
   
   <style scoped>
+  .grid-item{
+  }
   .grid-item-title {
-    font-size: 30px;
+    font-size: 1.2rem;
     font-weight: 600;  
     text-align: left; /* Align grid item titles to the left */
     margin: 15px 0;
@@ -106,7 +106,7 @@
     color: #6D6D6D;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

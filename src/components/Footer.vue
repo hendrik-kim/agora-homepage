@@ -39,7 +39,7 @@
       <div class="white-line"></div>
       <v-row class="footer-second-row">
         <v-col cols="12" sm="12" md="5" lg="4" xl="4" class="d-flex justify-center justify-sm-center justify-md-start">
-          <p>© 2023 by AGORA Production.</p>
+          <p class="text-no-wrap">© 2023 by AGORA Production.</p>
         </v-col>
         <v-col cols="12" md="1" lg="4" xl="5" class="d-none d-sm-none d-md-block"></v-col>
         <v-col cols="12" sm="12" md="3" lg="2" xl="2" class=" d-flex justify-center  justify-md-end justify-sm-center">

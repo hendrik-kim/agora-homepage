@@ -8,7 +8,7 @@
   
         <!-- Right column -->
         <v-col md="8" cols="12" class="right-column">
-          <p class="services-description">
+          <p style="word-wrap: break-word;">
             Discover our marketing company, delivering creative solutions to over 70 clients and partners.
             From digital marketing to brand development, our passionate team crafts tailored strategies for maximum impact and ROI.
           </p>
@@ -141,7 +141,7 @@ import ServicesCarousel from './ServicesCarousel.vue';
   
   .right-column {
     color: #FFF;
-    text-align: justify;
+    /* text-align: justify; */
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -238,7 +238,7 @@ padding: 10px;
 justify-content: center;
 align-items: center;
 gap: 10px;
-flex-shrink: 0;
+/* flex-shrink: 0; */
   background: #000;
 }
   </style>
