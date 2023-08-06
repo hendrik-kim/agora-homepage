@@ -108,6 +108,9 @@
       }
       .partners-text {align-self: center;}
       .agora-text {align-self: center;}
+       .partner-item {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
     }
   </style>
   
