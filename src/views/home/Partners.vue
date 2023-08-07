@@ -1,28 +1,28 @@
 <template>
     <v-container fluid class="pa-0 my-16">
       <v-row class="partners-section">
-        <v-col cols="12" md="2" class="partners-header">
+        <v-col cols="12" md="1" class="partners-header flex-grow-0 flex-shrink-0">
           <div class="partners-text">Partners of</div>
           <div class="agora-text">AGORA</div>
         </v-col>
-        <v-col cols="12" md="1" class="">
+        <v-col cols="12" md="1" class="flex-grow-0 flex-shrink-1">
           <div class="vertical-line" style="margin: auto;"></div>
         </v-col>
-        <v-col cols="12" md="9" class="partners-list">
+        <v-col cols="12" md="10" class="partners-list flex-grow-0 flex-shrink-1">
             <v-row style="font-family: 'Poppins', sans-serif; font-size: 23px; font-weight: 500;">
 
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center">outtake</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center">SOODA</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-1" style="min-width: 120px; max-width: 100%;">Spain Vibe Tour</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-1" style="min-width: 120px; max-width: 100%;">West Pacific</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center">MAPO</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-1" style="min-width: 120px; max-width: 100%;">Cornerstone</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center">College</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center">GIGU</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-1" style="min-width: 120px; max-width: 100%;">LET EAT GO</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-1" style="min-width: 120px; max-width: 100%;">Byeol Bam</v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item d-none d-md-flex" ></v-col>
-          <v-col cols="12" sm="4" md="3" lg="2" xl="1" class="partner-item d-none d-md-flex"></v-col>    
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center">outtake</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center">SOODA</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-0" style="min-width: 120px; max-width: 100%;">Spain Vibe Tour</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-0" style="min-width: 120px; max-width: 100%;">West Pacific</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center">MAPO</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-0" style="min-width: 120px; max-width: 100%;">Cornerstone</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center">College</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center">GIGU</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-0" style="min-width: 120px; max-width: 100%;">LET EAT GO</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item text-center flex-grow-1 flex-shrink-0" style="min-width: 120px; max-width: 100%;">Byeol Bam</v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item d-none d-md-flex d-xl-none flex-grow-0 flex-shrink-1"></v-col>
+          <v-col cols="12" sm="4" md="3" lg="3" xl="1" class="partner-item d-none d-md-flex d-xl-none flex-grow-0 flex-shrink-1"></v-col>    
         </v-row>
         </v-col>
       </v-row>
@@ -58,6 +58,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      white-space: nowrap;
     }
   
     .partners-text {
@@ -92,6 +93,11 @@
       margin-right: 70px; /* Adjust the spacing between partners as needed */
       font-size: 16px; /* Adjust the font size as needed */
     }
+
+    @media (max-width: 1400px) {    .vertical-line {
+    display: none;
+    
+    }}
   
     @media (max-width: 959px) {
       .partners-section {
@@ -102,6 +108,7 @@
     height: 1px; /* Set height to 1px for a horizontal line */
     margin: 16px 0; /* Adjust margin for spacing */
     margin: 0px auto; 
+    display: flex;
   }
       .partners-text, .agora-text {
         font-size: 24px; /* Adjust font size for smaller screens */
